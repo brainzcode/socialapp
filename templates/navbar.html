@@ -3,7 +3,7 @@
 </a>
 
 <form action="{% url 'home' %}">
-    <input type="text" name="query" placeholder="Search Rooms...">
+    <input type="text" name="q" placeholder="Search Rooms...">
 </form>
 
 {% if request.user.is_authenticated %}
