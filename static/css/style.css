@@ -519,12 +519,12 @@ a {
 }
 
 .form__group select {
-  color: var(--color-gray);
+  color: var(--color-light-gray);
   font-weight: 400;
 }
 
-.form__group select option {
-  background-color: var(--color-dark-light);
+.form__group datalist select option {
+  background-color: var(--color-dark-light) !important;
   color: var(--color-light);
   padding: 0 10rem;
 }
