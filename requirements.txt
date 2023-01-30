@@ -17,6 +17,8 @@ distlib==0.3.6
 distro==1.7.0
 distro-info===1.1build1
 Django==3.2.12
+django-cors-headers==3.13.0
+djangorestframework==3.14.0
 duplicity==0.8.21
 fasteners==0.14.1
 filelock==3.9.0
