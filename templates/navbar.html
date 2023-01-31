@@ -39,10 +39,20 @@
 
       {% else %}
       <!-- Not Logged In -->
-      <a href="{% url 'login' %}">
-        <img src="{% static './images/avatar.svg' %}" />
-        <p>Login</p>
-      </a>
+      <div class="login-register">
+        <div>
+          <a href="{% url 'login' %}">
+            <img src="{% static './images/avatar.svg' %}" />
+            <p>Login</p>
+          </a>
+        </div>
+
+        <div>
+          <a href="{% url 'register' %}">
+            <p>Sign Up</p>
+          </a>
+        </div>
+      </div>
 
       {% endif %}
 

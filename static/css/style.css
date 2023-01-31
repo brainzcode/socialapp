@@ -374,6 +374,13 @@ a {
   fill: var(--color-dark-light);
 }
 
+.header__menu,
+.login-register {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 .dropdown-button {
   background: transparent;
   border: 0;
